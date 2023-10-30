@@ -8,11 +8,14 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <style>
+
+     
         body {
             
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #aebdb8;
-            color: white; 
+            background-color: rgb(205, 245, 255);
+            color: black; 
+        
             
         
         }
@@ -22,6 +25,12 @@
             text-decoration: underline;
             text-align: left;
             
+        }
+
+        td.data {
+
+            color: blue;
+
         }
 
         
@@ -34,35 +43,45 @@
         }
         
         table {
-            border-collapse: collapse;
+            border-collapse: initial;
             width: 400px;
             text-align: center;
+            
+        
+            
         }
 
         th,td {
             border: 1px solid black;
+            
             padding: 10x;
             text-align: center;
+            color: blue;
         }
 
         col.cdia {
-            background-color: #754f316a;
+            background-color: #2149ec93;
             
         }
 
         col.csala {
-            background-color: #8358354c;
+            background-color: #2448da7c;
+            
             
         }
 
         col.cprof {
-            background-color: #8358356d;
+            background-color: #4362e06c;
+            
         }
+
+        
+
     </style>
 </head>
 <body>
     <h1>Escala professores Escola Bíblica Dominical</h1>
-    <table>
+    <table class="borda">
         <colgroup>
             <col class="cdia">
             <col class="csala"> 
@@ -78,7 +97,7 @@
         <tr>
 
         <tr>
-            <td scope="col" rowspan="5">05/11/2023</td>
+            <td scope="col" rowspan="5" class="data">05/11/2023</td>
             <td>Abraão</td>
             <td>Pr Samuel</td>
         </tr>
@@ -99,7 +118,7 @@
             <td>Raquel</td>
         </tr>
         <tr>
-            <td scope="row" rowspan="5">12/11/2023</td>
+            <td scope="row" rowspan="5" class="data">12/11/2023</td>
             <td>Abraão</td>
             <td>Marcos</td>
         </tr>
@@ -120,7 +139,7 @@
             <td>Raquel</td>
         </tr>
         <tr>
-            <td scope="row" rowspan="5">19/11/2023</td>
+            <td scope="row" rowspan="5" class="data">19/11/2023</td>
             <td>Abraão</td>
             <td>Marcelo</td>
         </tr>
@@ -142,7 +161,7 @@
         </tr>
         <tr>
             <tr>
-                <td scope="row" rowspan="5">26/11/2023</td>
+                <td scope="row" rowspan="5" class="data">26/11/2023</td>
                 <td>Abraão</td>
                 <td>Pr.Samuel</td>
             </tr>
@@ -163,7 +182,7 @@
                 <td>Raquel</td>
             </tr>
             <tr>
-                <td scope="row" rowspan="5">03/12/2023</td>
+                <td scope="row" rowspan="5" class="data">03/12/2023</td>
                 <td>Abraão</td>
                 <td>Marcos</td>
             </tr>
@@ -173,7 +192,7 @@
             </tr>
             <tr>
                 <td>Gideão</td>
-                <td>Lucas</td>
+                <td>Edy</td>
             </tr>
             <tr>
                 <td>Lírios</td>
